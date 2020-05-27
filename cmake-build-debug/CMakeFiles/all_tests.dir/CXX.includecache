@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Customer.cpp
+sstream
+-
+vector
+-
+Customer.h
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Customer.h
+
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Customer.h
+string
+-
+vector
+-
+Rental.h
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Rental.h
+
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Google_tests/CustomerTests.cpp
+gtest/gtest.h
+-
+../Customer.h
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Customer.h
+
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Movie.h
+string
+-
+
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Rental.h
+Movie.h
+C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/Movie.h
+
