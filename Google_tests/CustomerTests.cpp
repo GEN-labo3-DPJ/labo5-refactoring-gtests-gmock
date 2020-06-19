@@ -49,7 +49,6 @@ namespace {
         customer.addRental( Rental( Movie("Snow White",MovieType::getChildren()), 3 ));
 
         string result="Rental Record for Olivier\n\tKarate Kid\t9.5\n\tAvengers: Endgame\t15\n\tSnow White\t1.5\nAmount owed is 26\nYou earned 4 frequent renter points";
-        cout<<result<<endl;
         ASSERT_EQ(result, customer.statement());
     }
 }

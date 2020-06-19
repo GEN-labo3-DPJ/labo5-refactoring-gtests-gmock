@@ -36,7 +36,7 @@ public:
         return durationStep;
     }
 
-    unsigned getLatePenalty()
+    double getLatePenalty()
     {
         return latePenalty;
     }

@@ -13,7 +13,9 @@ public:
 
     Movie( const std::string& title, MovieType* type);
 
-    int getPriceCode() const;
+    double getPriceRental() const;
+    unsigned getDurationStep() const;
+    double getLatePenalty() const;
     void setPriceCode( int arg );
     std::string getTitle() const;
 
@@ -28,8 +30,14 @@ Movie( const std::string& title, MovieType* type)
         : _title( title ), movieType(type)
 {}
 
-inline int Movie::
-getPriceCode() const { return movieType->getPriceRental(); }
+inline double Movie::
+getPriceRental() const { return movieType->getPriceRental(); }
+
+inline unsigned Movie::
+getDurationStep() const {return movieType->getDurationStep();}
+
+inline double Movie::
+getLatePenalty() const { return movieType->getLatePenalty(); }
 
 /*inline void Movie::
 setPriceCode( int arg ) { _priceCode = arg; }*/
