@@ -1,6 +1,9 @@
 #include <gtest/gtest.h>
+#include <iostream>
 
 #include "../Customer.h"
+
+using namespace std;
 
 namespace {
     // The fixture for testing class Foo.
@@ -41,16 +44,13 @@ namespace {
 
     TEST(CustomerTests, statementMethodWorks) {
         Customer customer("Olivier");
-        customer.addRental(Rental(Movie("Karate Kid"), 7));
-        customer.addRental(Rental(Movie("Avengers: Endgame", Movie::NEW_RELEASE), 5));
-        customer.addRental(Rental(Movie("Snow White", Movie::CHILDRENS), 3));
+        customer.addRental( Rental( Movie("Karate Kid", MovieType::getRegular()),7));
+        customer.addRental( Rental( Movie( "Avengers: Endgame", MovieType::getNewRelease() ), 5));
+        customer.addRental( Rental( Movie("Snow White",MovieType::getChildren()), 3 ));
 
-        ASSERT_EQ("Rental Record for Olivier\n \
-                          Karate Kid      9.5\n \
-                          Avengers: Endgame       15\n \
-                          Snow White      1.5\n \
-                  Amount owed is 26\n \
-                  You earned 4 frequent renter points", customer.statement());
+        string result="Rental Record for Olivier\n\tKarate Kid\t9.5\n\tAvengers: Endgame\t15\n\tSnow White\t1.5\nAmount owed is 26\nYou earned 4 frequent renter points";
+        cout<<result<<endl;
+        ASSERT_EQ(result, customer.statement());
     }
 }
 

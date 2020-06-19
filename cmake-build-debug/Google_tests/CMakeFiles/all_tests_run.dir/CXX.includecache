@@ -316,14 +316,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.cpp
-sstream
--
-vector
--
-Customer.h
-C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
-
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
 string
 -
@@ -335,12 +327,18 @@ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Rental.h
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Google_tests/CustomerTests.cpp
 gtest/gtest.h
 -
+iostream
+-
 ../Customer.h
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
 
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
 string
 -
+MovieType.h
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
+
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.cpp
 MovieType.h
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
 

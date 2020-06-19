@@ -10,21 +10,35 @@ class MovieType {
     static const int REGULAR     = 0;
     static const int NEW_RELEASE = 1;
 
-    unsigned priceRental;
+    double priceRental;
+    unsigned durationStep;
+    double latePenalty;
 
     static MovieType* regular;
     static MovieType* newRelease;
     static MovieType* children;
 
-    MovieType(unsigned price)
+    MovieType(double price, unsigned durationStep, double penalty)
     {
         priceRental=price;
+        this->durationStep=durationStep,
+        latePenalty=penalty;
     }
 
 public:
-    unsigned getPriceRental()
+    double getPriceRental()
     {
         return priceRental;
+    }
+
+    unsigned getDurationStep()
+    {
+        return durationStep;
+    }
+
+    unsigned getLatePenalty()
+    {
+        return latePenalty;
     }
 
     static MovieType* getRegular();

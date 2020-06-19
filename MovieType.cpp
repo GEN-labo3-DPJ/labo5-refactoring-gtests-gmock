@@ -12,7 +12,7 @@ MovieType* MovieType::getRegular()
 {
     if(regular== nullptr)
     {
-        regular=new MovieType(REGULAR);
+        regular=new MovieType(2,2,1.5);
     }
     return regular;
 }
@@ -21,7 +21,7 @@ MovieType* MovieType::getNewRelease()
 {
     if(newRelease== nullptr)
     {
-        newRelease=new MovieType(NEW_RELEASE);
+        newRelease=new MovieType(0,0,3);
     }
     return newRelease;
 }
@@ -30,7 +30,7 @@ MovieType* MovieType::getChildren()
 {
     if(children== nullptr)
     {
-        children=new MovieType(CHILDRENS);
+        children=new MovieType(1.5,3,1.5);
     }
     return children;
 }
