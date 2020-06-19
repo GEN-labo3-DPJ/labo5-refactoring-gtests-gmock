@@ -13,16 +13,18 @@ class MovieType {
     double priceRental;
     unsigned durationStep;
     double latePenalty;
+    unsigned frequentRenterBonus;
 
     static MovieType* regular;
     static MovieType* newRelease;
     static MovieType* children;
 
-    MovieType(double price, unsigned durationStep, double penalty)
+    MovieType(double price, unsigned durationStep, double penalty,unsigned bonus)
     {
         priceRental=price;
         this->durationStep=durationStep,
         latePenalty=penalty;
+        frequentRenterBonus=bonus;
     }
 
 public:
@@ -39,6 +41,11 @@ public:
     double getLatePenalty()
     {
         return latePenalty;
+    }
+
+    unsigned getFrequentRenterBonus()
+    {
+        return frequentRenterBonus;
     }
 
     static MovieType* getRegular();

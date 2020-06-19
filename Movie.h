@@ -16,12 +16,12 @@ public:
     double getPriceRental() const;
     unsigned getDurationStep() const;
     double getLatePenalty() const;
+    unsigned getFrequentRenterBonus() const;
     void setPriceCode( int arg );
     std::string getTitle() const;
 
 private:
     std::string _title;
-    //int _priceCode;
     MovieType* movieType;
 };
 
@@ -38,6 +38,9 @@ getDurationStep() const {return movieType->getDurationStep();}
 
 inline double Movie::
 getLatePenalty() const { return movieType->getLatePenalty(); }
+
+inline unsigned Movie::
+getFrequentRenterBonus() const {return movieType->getFrequentRenterBonus();}
 
 /*inline void Movie::
 setPriceCode( int arg ) { _priceCode = arg; }*/
