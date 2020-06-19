@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock
+# Install script for directory: C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/cmake-build-debug/Google_tests/cmake_install.cmake")
+  include("C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/cmake-build-debug/Google_tests/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

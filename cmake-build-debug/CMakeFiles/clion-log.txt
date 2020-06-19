@@ -1,5 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_SH=CMAKE_SH-NOTFOUND -G "CodeBlocks - MinGW Makefiles" "C:\Users\pablo-pc\Desktop\repos git\labo5-refactoring-gtests-gmock"
--- Found PythonInterp: C:/Users/pablo-pc/AppData/Local/Programs/Python/Python37-32/python.exe (found version "3.7") 
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\David Dupraz\Documents\HEIG\GEN\labo5-refactoring-gtests-gmock"
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/pablo-pc/Desktop/repos git/labo5-refactoring-gtests-gmock/cmake-build-debug
+-- Build files have been written to: C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/cmake-build-debug
