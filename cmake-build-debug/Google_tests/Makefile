@@ -224,6 +224,33 @@ __/Customer.cpp.s:
 	cd /d C:\Users\DAVIDD~1\DOCUME~1\HEIG\GEN\LABO5-~1\CMAKE-~1 && $(MAKE) -f Google_tests\CMakeFiles\all_tests_run.dir\build.make Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.s
 .PHONY : __/Customer.cpp.s
 
+__/MovieType.obj: __/MovieType.cpp.obj
+
+.PHONY : __/MovieType.obj
+
+# target to build an object file
+__/MovieType.cpp.obj:
+	cd /d C:\Users\DAVIDD~1\DOCUME~1\HEIG\GEN\LABO5-~1\CMAKE-~1 && $(MAKE) -f Google_tests\CMakeFiles\all_tests_run.dir\build.make Google_tests/CMakeFiles/all_tests_run.dir/__/MovieType.cpp.obj
+.PHONY : __/MovieType.cpp.obj
+
+__/MovieType.i: __/MovieType.cpp.i
+
+.PHONY : __/MovieType.i
+
+# target to preprocess a source file
+__/MovieType.cpp.i:
+	cd /d C:\Users\DAVIDD~1\DOCUME~1\HEIG\GEN\LABO5-~1\CMAKE-~1 && $(MAKE) -f Google_tests\CMakeFiles\all_tests_run.dir\build.make Google_tests/CMakeFiles/all_tests_run.dir/__/MovieType.cpp.i
+.PHONY : __/MovieType.cpp.i
+
+__/MovieType.s: __/MovieType.cpp.s
+
+.PHONY : __/MovieType.s
+
+# target to generate assembly for a file
+__/MovieType.cpp.s:
+	cd /d C:\Users\DAVIDD~1\DOCUME~1\HEIG\GEN\LABO5-~1\CMAKE-~1 && $(MAKE) -f Google_tests\CMakeFiles\all_tests_run.dir\build.make Google_tests/CMakeFiles/all_tests_run.dir/__/MovieType.cpp.s
+.PHONY : __/MovieType.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -243,6 +270,9 @@ help:
 	@echo ... __/Customer.obj
 	@echo ... __/Customer.i
 	@echo ... __/Customer.s
+	@echo ... __/MovieType.obj
+	@echo ... __/MovieType.i
+	@echo ... __/MovieType.s
 .PHONY : help
 
 

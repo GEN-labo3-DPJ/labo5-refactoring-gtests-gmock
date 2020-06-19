@@ -5,10 +5,15 @@ CMakeFiles/main.dir/Customer.cpp.obj
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.cpp
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Rental.h
 CMakeFiles/main.dir/Movie.cpp.obj
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.cpp
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
+CMakeFiles/main.dir/MovieType.cpp.obj
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.cpp
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
 CMakeFiles/main.dir/main.cpp.obj
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Google_tests/lib/googletest/include/gtest/gtest-death-test.h
@@ -32,5 +37,6 @@ CMakeFiles/main.dir/main.cpp.obj
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Google_tests/lib/googletest/include/gtest/internal/gtest-string.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Google_tests/lib/googletest/include/gtest/internal/gtest-type-util.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Rental.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/main.cpp

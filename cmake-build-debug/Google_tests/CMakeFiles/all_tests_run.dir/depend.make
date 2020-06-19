@@ -24,10 +24,15 @@ Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj: ../Google_tests
 Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj: ../Customer.h
 Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj: ../Google_tests/CustomerTests.cpp
 Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj: ../Movie.h
+Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj: ../MovieType.h
 Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj: ../Rental.h
 
 Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.obj: ../Customer.cpp
 Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.obj: ../Customer.h
 Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.obj: ../Movie.h
+Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.obj: ../MovieType.h
 Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.obj: ../Rental.h
+
+Google_tests/CMakeFiles/all_tests_run.dir/__/MovieType.cpp.obj: ../MovieType.cpp
+Google_tests/CMakeFiles/all_tests_run.dir/__/MovieType.cpp.obj: ../MovieType.h
 

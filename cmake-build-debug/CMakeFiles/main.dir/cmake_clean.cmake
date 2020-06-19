@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Customer.cpp.obj"
   "CMakeFiles/main.dir/Movie.cpp.obj"
+  "CMakeFiles/main.dir/MovieType.cpp.obj"
   "CMakeFiles/main.dir/main.cpp.obj"
   "libmain.dll.a"
   "main.exe"

@@ -287,6 +287,33 @@ Movie.cpp.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Movie.cpp.s
 .PHONY : Movie.cpp.s
 
+MovieType.obj: MovieType.cpp.obj
+
+.PHONY : MovieType.obj
+
+# target to build an object file
+MovieType.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/MovieType.cpp.obj
+.PHONY : MovieType.cpp.obj
+
+MovieType.i: MovieType.cpp.i
+
+.PHONY : MovieType.i
+
+# target to preprocess a source file
+MovieType.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/MovieType.cpp.i
+.PHONY : MovieType.cpp.i
+
+MovieType.s: MovieType.cpp.s
+
+.PHONY : MovieType.s
+
+# target to generate assembly for a file
+MovieType.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/MovieType.cpp.s
+.PHONY : MovieType.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -338,6 +365,9 @@ help:
 	@echo ... Movie.obj
 	@echo ... Movie.i
 	@echo ... Movie.s
+	@echo ... MovieType.obj
+	@echo ... MovieType.i
+	@echo ... MovieType.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

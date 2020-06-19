@@ -11,4 +11,4 @@ add_executable(main
         Customer.h
         Movie.cpp
         Movie.h
-        Rental.h)
+        Rental.h MovieType.h MovieType.cpp)

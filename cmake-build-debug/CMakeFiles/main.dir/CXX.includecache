@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.cpp
+sstream
+-
+vector
+-
+Customer.h
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
+
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
 string
 -
@@ -324,9 +332,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.cpp
+Movie.h
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
+
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
 string
 -
+MovieType.h
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
+
+C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
 
 C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Rental.h
 Movie.h

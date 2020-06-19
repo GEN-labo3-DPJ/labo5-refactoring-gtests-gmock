@@ -45,7 +45,12 @@ namespace {
         customer.addRental(Rental(Movie("Avengers: Endgame", Movie::NEW_RELEASE), 5));
         customer.addRental(Rental(Movie("Snow White", Movie::CHILDRENS), 3));
 
-        ASSERT_NE("Amount owed is 26\nYou earned 4 frequent renter points", customer.statement());
+        ASSERT_EQ("Rental Record for Olivier\n \
+                          Karate Kid      9.5\n \
+                          Avengers: Endgame       15\n \
+                          Snow White      1.5\n \
+                  Amount owed is 26\n \
+                  You earned 4 frequent renter points", customer.statement());
     }
 }
 

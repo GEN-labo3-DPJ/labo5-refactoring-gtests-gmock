@@ -387,6 +387,14 @@
 		<Unit filename="C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.cpp">
+			<Option target="main"/>
+			<Option target="all_tests_run"/>
+		</Unit>
+		<Unit filename="C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h">
+			<Option target="main"/>
+			<Option target="all_tests_run"/>
+		</Unit>
 		<Unit filename="C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Rental.h">
 			<Option target="main"/>
 		</Unit>

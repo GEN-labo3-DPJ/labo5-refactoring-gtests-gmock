@@ -3,6 +3,8 @@
 #define MOVIE_H
 #include <string>
 
+#include "MovieType.h"
+
 class Movie {
 public:
     static const int CHILDRENS   = 2;

@@ -4,10 +4,15 @@
 CMakeFiles/main.dir/Customer.cpp.obj: ../Customer.cpp
 CMakeFiles/main.dir/Customer.cpp.obj: ../Customer.h
 CMakeFiles/main.dir/Customer.cpp.obj: ../Movie.h
+CMakeFiles/main.dir/Customer.cpp.obj: ../MovieType.h
 CMakeFiles/main.dir/Customer.cpp.obj: ../Rental.h
 
 CMakeFiles/main.dir/Movie.cpp.obj: ../Movie.cpp
 CMakeFiles/main.dir/Movie.cpp.obj: ../Movie.h
+CMakeFiles/main.dir/Movie.cpp.obj: ../MovieType.h
+
+CMakeFiles/main.dir/MovieType.cpp.obj: ../MovieType.cpp
+CMakeFiles/main.dir/MovieType.cpp.obj: ../MovieType.h
 
 CMakeFiles/main.dir/main.cpp.obj: ../Customer.h
 CMakeFiles/main.dir/main.cpp.obj: ../Google_tests/lib/googletest/include/gtest/gtest-death-test.h
@@ -31,6 +36,7 @@ CMakeFiles/main.dir/main.cpp.obj: ../Google_tests/lib/googletest/include/gtest/i
 CMakeFiles/main.dir/main.cpp.obj: ../Google_tests/lib/googletest/include/gtest/internal/gtest-string.h
 CMakeFiles/main.dir/main.cpp.obj: ../Google_tests/lib/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/main.dir/main.cpp.obj: ../Movie.h
+CMakeFiles/main.dir/main.cpp.obj: ../MovieType.h
 CMakeFiles/main.dir/main.cpp.obj: ../Rental.h
 CMakeFiles/main.dir/main.cpp.obj: ../main.cpp
 

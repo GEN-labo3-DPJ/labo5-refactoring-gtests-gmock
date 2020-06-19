@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Google_tests/CustomerTests.cpp" "C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/cmake-build-debug/Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj"
   "C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.cpp" "C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/cmake-build-debug/Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.obj"
+  "C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.cpp" "C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/cmake-build-debug/Google_tests/CMakeFiles/all_tests_run.dir/__/MovieType.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -25,9 +25,14 @@ Google_tests/CMakeFiles/all_tests_run.dir/CustomerTests.cpp.obj
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Google_tests/CustomerTests.cpp
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Rental.h
 Google_tests/CMakeFiles/all_tests_run.dir/__/Customer.cpp.obj
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.cpp
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Customer.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Movie.h
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
  C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/Rental.h
+Google_tests/CMakeFiles/all_tests_run.dir/__/MovieType.cpp.obj
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.cpp
+ C:/Users/David Dupraz/Documents/HEIG/GEN/labo5-refactoring-gtests-gmock/MovieType.h
