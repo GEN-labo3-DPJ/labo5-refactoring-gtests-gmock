@@ -11,15 +11,12 @@ using namespace std;
 string Customer::statement()
 {
     double totalAmount = 0;
-    int frequentRenterPoints = 0;
-    vector< Rental >::iterator iter = _rentals.begin();
-    vector< Rental >::iterator iter_end = _rentals.end();
+    unsigned frequentRenterPoints = 0;
     ostringstream result;
     result << "Rental Record for " << getName() << "\n";
-    for ( ; iter != iter_end; ++iter ) {
+    for (Rental each: _rentals ) {
         double thisAmount = 0;
-        Rental each = *iter;
-
+        
         Movie m=each.getMovie();
         thisAmount+=m.getPriceRental();
         if ( each.getDaysRented() > m.getDurationStep() )
