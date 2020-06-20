@@ -15,9 +15,9 @@ class MovieType {
     double latePenalty;
     unsigned frequentRenterBonus;
 
-    static MovieType* regular;
-    static MovieType* newRelease;
-    static MovieType* children;
+    static const MovieType* regular;
+    static const MovieType* newRelease;
+    static const MovieType* children;
 
     MovieType(double price, unsigned durationStep, double penalty,unsigned bonus)
     {
@@ -28,29 +28,29 @@ class MovieType {
     }
 
 public:
-    double getPriceRental()
+    double getPriceRental() const
     {
         return priceRental;
     }
 
-    unsigned getDurationStep()
+    unsigned getDurationStep() const
     {
         return durationStep;
     }
 
-    double getLatePenalty()
+    double getLatePenalty() const
     {
         return latePenalty;
     }
 
-    unsigned getFrequentRenterBonus()
+    unsigned getFrequentRenterBonus() const
     {
         return frequentRenterBonus;
     }
 
-    static MovieType* getRegular();
-    static MovieType* getNewRelease();
-    static MovieType* getChildren();
+    static const MovieType* getRegular();
+    static const MovieType* getNewRelease();
+    static const MovieType* getChildren();
 };
 
 #endif //LABO5_REFACTORING_GTESTS_GMOCK_MOVIETYPE_H
