@@ -9,7 +9,7 @@ public:
 
     int getDaysRented() const;
     const Movie& getMovie() const;
-
+    unsigned applyFrequentRenterBonus();
 private:
     Movie _movie;
     int _daysRented;
@@ -25,5 +25,14 @@ getDaysRented() const { return _daysRented; }
 
 inline const Movie& Rental::
 getMovie() const { return _movie; }
+
+inline unsigned Rental::
+applyFrequentRenterBonus() {
+    if(_daysRented>1)
+    {
+        return _movie.getMovieType().getFrequentRenterBonus();
+    }
+    return 0;
+}
 
 #endif // RENTAL_H

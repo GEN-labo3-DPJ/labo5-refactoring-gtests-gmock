@@ -42,6 +42,23 @@ namespace {
         ASSERT_TRUE("Jean");
     }
 
+    TEST(CustomerTests, movie_types_are_singletons)
+    {
+        //the 2 movieType fields must have same adress
+        ASSERT_EQ(MovieType::getRegular(), MovieType::getRegular());
+        ASSERT_EQ(MovieType::getChildren(),MovieType::getChildren());
+        ASSERT_EQ(MovieType::getNewRelease(),MovieType::getNewRelease());
+    }
+
+    TEST(CustomerTests, movie_field_is_fixed_by_type)
+    {
+        Movie jw("Jurassic World", MovieType::getRegular()), cm("Captain Marvel", MovieType::getNewRelease());
+        ASSERT_EQ(jw.getMovieType().getPriceRental(), MovieType::getRegular()->getPriceRental());
+        ASSERT_EQ(jw.getMovieType().getDurationStep(), MovieType::getRegular()->getDurationStep());
+        ASSERT_EQ(jw.getMovieType().getLatePenalty(), MovieType::getRegular()->getLatePenalty());
+        ASSERT_EQ(cm.getMovieType().getFrequentRenterBonus(), MovieType::getNewRelease()->getFrequentRenterBonus());
+    }
+
     TEST(CustomerTests, statementMethodWorks) {
         Customer customer("Olivier");
         customer.addRental( Rental( Movie("Karate Kid", MovieType::getRegular()),7));
