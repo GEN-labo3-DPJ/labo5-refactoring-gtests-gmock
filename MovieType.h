@@ -48,6 +48,8 @@ public:
         return frequentRenterBonus;
     }
 
+    virtual ~MovieType(){}
+
     static const MovieType* getRegular();
     static const MovieType* getNewRelease();
     static const MovieType* getChildren();
