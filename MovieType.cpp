@@ -1,6 +1,4 @@
-//
-// Created by David Dupraz on 19.06.2020.
-//
+//MovieType.cpp
 
 #include "MovieType.h"
 

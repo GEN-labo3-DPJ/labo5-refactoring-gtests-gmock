@@ -1,6 +1,4 @@
-//
-// Created by David Dupraz on 19.06.2020.
-//
+//MovieType.h
 
 #ifndef LABO5_REFACTORING_GTESTS_GMOCK_MOVIETYPE_H
 #define LABO5_REFACTORING_GTESTS_GMOCK_MOVIETYPE_H
